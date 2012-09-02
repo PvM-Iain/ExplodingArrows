@@ -1,0 +1,12 @@
+name: ExplodingArrows
+version: 0.4
+main: com.bitzcraftonline.iain.ExplodingArrows
+commands:
+    ea:
+        description: Toggles the exploding arrows feature and allows arrows to explode when they hit the ground.
+        usage: /explodingarrows
+        aliases: [ea, explode, earrows, earrow, exarrow, exarrows]
+permissions:
+    explodingarrows.use:
+        description: Allows the player to use the exploding arrows feature.
+        default: op
