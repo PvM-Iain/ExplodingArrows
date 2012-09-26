@@ -26,9 +26,11 @@ public class ExplodingArrowsListener  implements Listener {
       Entity shooter = arrow.getShooter();
       if ((shooter instanceof Player)) {
         Player player = (Player)shooter;
-        if ((this.plugin.enabledPlayers.contains(player.getName())) && 
-          (player.hasPermission("explodingarrows.use")))
-          player.getWorld().createExplosion(arrow.getLocation(), 5.0F);
+        if ((this.plugin.enabledPlayers.contains(player.getName())) && (player.hasPermission("explodingarrows.use"))) 
+        	if (player.getFoodLevel() == 20)
+        		   player.getWorld().createExplosion(arrow.getLocation(), 5.0F);
+                   player.setFoodLevel(15);
+                   player.setHealth(18);
       }
     }
   }
