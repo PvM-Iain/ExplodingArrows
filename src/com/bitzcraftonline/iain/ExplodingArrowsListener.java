@@ -1,7 +1,5 @@
 package com.bitzcraftonline.iain;
 
-import java.util.ArrayList;
-import org.bukkit.World;
 import org.bukkit.entity.Arrow;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;

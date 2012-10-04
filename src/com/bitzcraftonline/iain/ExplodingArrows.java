@@ -1,6 +1,5 @@
 package com.bitzcraftonline.iain;
 
-import java.io.File;
 import java.util.ArrayList;
 import org.bukkit.permissions.Permission;
 import org.bukkit.plugin.PluginManager;
