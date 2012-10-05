@@ -30,6 +30,7 @@ public class ExplodingArrowsListener  implements Listener {
         		if(player.getHealth() == 20)
         		    player.getWorld().createExplosion(arrow.getLocation(), 5.0F);
                        player.setFoodLevel(15);
+                         player.setHealth(18);
       } 
     }
   }
